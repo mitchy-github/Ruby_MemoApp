@@ -14,8 +14,6 @@ while input_number == ""
   end
 end
 
-puts input_number
-
 if input_number == "1"
     puts "拡張子を除いたファイル名を入力して下さい。"
     file_name = gets.chomp
